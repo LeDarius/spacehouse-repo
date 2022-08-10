@@ -1,0 +1,159 @@
+html{
+    background-image:linear-gradient( white, purple,white);
+    background-repeat: no-repeat;
+
+
+    background-position: center;
+    background-size:cover; 
+    height:auto;
+    width:100%;
+   
+}
+body{
+    color:white;
+     font-family: 'Lobster', cursive;
+}
+.main-nav ul{
+    display:grid;
+    grid-gap:20px;
+    padding:0;
+    list-style:none;
+    grid-template-columns:repeat(4, 1fr);
+}
+.main-nav a{
+    background-image:linear-gradient(to bottom right, purple, blue );
+    display:block;
+    text-decoration: none;
+    padding:0.8rem;
+    text-align: center;
+    color:white;
+    
+    font-size:2.5rem;
+    border-style: double;
+    font-family: 'Lobster', cursive;
+ 
+}
+.main-nav a:hover{
+    background-color:gainsboro;
+    color: black;
+}
+
+
+}
+ul{
+    color:white;
+}
+.top-container{
+    display:grid;
+    grid-gap:20px;
+    grid-template-areas: 
+        'showcase showcase2'
+}
+.showcase{
+    width:80%;
+    min-height:400px;
+    background-image:linear-gradient(to bottom right, aqua, blue, purple, pink);
+    background-size:cover;
+    background-position:center;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-style: double;
+   
+
+}
+.showcase2{
+    width:80%;
+        min-height:400px;
+    background-image:url(moonhouse2.png);
+    background-size:cover;
+    background-position:right;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    border-style: double;
+    
+}
+.text{
+    margin:5%;
+    text-align: center;
+}
+.boxes{
+    display:flex;
+    grid-gap:20px;
+    grid-template-areas: 
+        'box1' 'box2' 'box3' 'box4'
+}
+.box1{
+        width:80%;
+    
+    background-image:url(moonhouse.png);
+    background-size:cover;
+    background-position:center;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-style: double;
+    margin:1%;
+
+}
+.box2{
+        width:80%;
+    
+    background-image:url(Mystic%20Jungle%201.png);
+    background-size:cover;
+    background-position:center;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-style: double;
+    margin:1%;
+
+}
+.box3{
+        width:80%;
+    
+    background-image:url(Spacehouse.png);
+    background-size:cover;
+    background-position:center;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-style: double;
+    margin:1%;
+
+}
+.box4{
+        width:80%;
+    min-height:400px;
+    background-image:url(Lvste2.png);
+    background-size:cover;
+    background-position:center;
+    padding:4rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border-style: double;
+    margin:1%;
+
+}
+footer{
+    margin-top:2rem;
+    position: relative;
+    bottom:0;
+    color:white;
+    text-align:center;
+    padding:0.7rem;
+}
